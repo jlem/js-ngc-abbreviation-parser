@@ -1,0 +1,30 @@
+{
+    "name": "js-ngc-abbreviation-parser",
+    "version": "1.0.0",
+    "description": "JS library for parsing out abbreviations for NGC objects.",
+    "main": "dist/index.js",
+    "scripts": {
+        "tdd": "jest -o --watch",
+        "test": "jest",
+        "build": "babel src -d dist"
+    },
+    "jest": {
+        "verbose": true,
+        "bail": true
+    },
+    "repository": "https://github.com/jlem/js-ngc-abbreviation-parser.git",
+    "author": "Jon <agmlauncher@gmail.com>",
+    "license": "MIT",
+    "devDependencies": {
+        "babel-cli": "6.26.0",
+        "babel-jest": "22.4.3",
+        "babel-preset-env": "1.6.1",
+        "jest": "22.4.3",
+        "watch": "1.0.2"
+    },
+    "dependencies": {
+        "jlem-js-exceptions": "^1.0.0",
+        "jlem-js-validators": "1.0.1",
+        "lodash": "4.17.5"
+    }
+}
